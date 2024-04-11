@@ -1,0 +1,9 @@
+diff a/src/main/java/com/ohgiraffers/bootproject/controller/CalculatorController.java b/src/main/java/com/ohgiraffers/bootproject/controller/CalculatorController.java	(rejected hunks)
+@@ -27,6 +27,7 @@
+         int result = calculatorService.plus(calculatorDTO);
+         calculatorDTO.setSum(result);
+ 
++        
+         return calculatorDTO;
+ 
+     }
